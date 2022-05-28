@@ -1,1 +1,1 @@
-./formatstringattack %p %p
+./formatstringattack "%p %p %p %p %p %p"
