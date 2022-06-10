@@ -24,7 +24,7 @@ public class SqlInjectionController
     	
     }
     
-    @PostMapping("/sqlip")
+    @PostMapping("/sqli")
     public String simpleQueryPost(@RequestBody VulnUser vulnUser)
     {
     	if(vulnUser.getUsername() == null)
