@@ -14,7 +14,7 @@ public class IdorController
 	@Autowired
 	IdorService idorService;
 	
-	@GetMapping
+	@GetMapping("/idor")
 	public String idorVulnerability(@RequestParam String idpage)
 	{
 		return idorService.doIdor(idpage);
