@@ -1,5 +1,18 @@
 package com.vulnerableworkshop.idor.model;
 
-public class IdorDocumentModel {
+public class IdorDocumentModel 
+{
+	
+	private String message;
+
+	public String getMessage() {
+		return message;
+	}
+
+	public void setMessage(String message) {
+		this.message = message;
+	}
+	
+	
 
 }
